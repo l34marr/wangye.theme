@@ -6,25 +6,19 @@
 wangye.theme
 ==============================================================================
 
-Tell me what your product does
+WangYe Theme is a Diazo-based Plone Package.
 
 Features
 --------
 
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
+- Multipurpose
+- Educational
 
 
 Documentation
 -------------
 
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
+Full documentation for end users can be found in the "docs" folder, and is also available online at http://github.com/l34marr/wangye.theme
 
 
 Translations
@@ -56,14 +50,7 @@ Contribute
 
 - Issue Tracker: https://github.com/collective/wangye.theme/issues
 - Source Code: https://github.com/collective/wangye.theme
-- Documentation: https://docs.plone.org/foo/bar
-
-
-Support
--------
-
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+- Documentation: https://github.com/collective/wangye.theme
 
 
 License

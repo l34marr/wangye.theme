@@ -47,3 +47,4 @@ WANGYE_THEME_ACCEPTANCE_TESTING = FunctionalTesting(
     ),
     name='WangyeThemeLayer:AcceptanceTesting'
 )
+

@@ -49,3 +49,4 @@ class TestUninstall(unittest.TestCase):
             IWangyeThemeLayer
         from plone.browserlayer import utils
         self.assertNotIn(IWangyeThemeLayer, utils.registered_layers())
+

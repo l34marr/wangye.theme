@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layers>
   <layer
-      name="wangye.theme"
-      interface="wangye.theme.interfaces.IWangyeThemeLayer"
-      />
+    name="wangye.theme"
+    interface="wangye.theme.interfaces.IWangyeThemeLayer" />
 </layers>

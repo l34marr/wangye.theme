@@ -1,9 +1,9 @@
 <configure
-    xmlns="http://namespaces.zope.org/zope"
-    xmlns:plone="http://namespaces.plone.org/plone"
-    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-    xmlns:i18n="http://namespaces.zope.org/i18n"
-    i18n_domain="wangye.theme">
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:plone="http://namespaces.plone.org/plone"
+  xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+  xmlns:i18n="http://namespaces.zope.org/i18n"
+  i18n_domain="wangye.theme">
 
   <i18n:registerTranslations directory="locales" />
 
@@ -12,32 +12,28 @@
   <include package=".browser" />
 
   <plone:static
-      directory="theme"
-      type="theme"
-      name="wangye"
-      />
+    name="wangye"
+    directory="resources"
+    type="theme" />
 
   <genericsetup:registerProfile
-      name="default"
-      title="Plone Theme: WangYe"
-      directory="profiles/default"
-      description="Installs the Plone theme package wangye.theme."
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      post_handler=".setuphandlers.post_install"
-      />
+    name="default"
+    title="WangYe Theme"
+    directory="profiles/default"
+    description="WangYe Theme Package"
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    post_handler=".setuphandlers.post_install" />
 
   <genericsetup:registerProfile
-      name="uninstall"
-      title="Uninstall: Plone Theme: WangYe"
-      directory="profiles/uninstall"
-      description="Uninstalls the Plone theme package wangye.theme."
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      post_handler=".setuphandlers.uninstall"
-      />
-
+    name="uninstall"
+    title="Uninstall: WangYe Theme"
+    directory="profiles/uninstall"
+    description="Uninstalls WangYe Theme Package"
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    post_handler=".setuphandlers.uninstall" />
 
   <utility
-      factory=".setuphandlers.HiddenProfiles"
-      name="wangye.theme-hiddenprofiles" />
+    name="wangye.theme-hiddenprofiles"
+    factory=".setuphandlers.HiddenProfiles" />
 
 </configure>
