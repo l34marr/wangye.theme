@@ -1,0 +1,6 @@
+[report]
+include =
+    src/wangye/*
+omit =
+    */test*
+    */upgrades/*
