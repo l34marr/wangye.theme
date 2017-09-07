@@ -11,8 +11,17 @@ WangYe Theme is a Diazo-based Plone Package.
 Features
 --------
 
-- Multipurpose
-- Educational
+- Photo Gallery, Progress Bar
+- Parallax, Slide Image/Video
+- Isotope Filtering
+- Accordions, Toogles
+- Counters, CountDown
+- Styled Tables, Tab Listing
+- Info Window, Scroll JS
+- Horizontal/Vertical Listing
+- Normal/Icon/Circle Buttons
+- Badges, Rentina Icons, DropCaps
+- Alerts, Testimonials
 
 
 Documentation
